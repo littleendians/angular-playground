@@ -1,28 +1,39 @@
-# angular-playground
+# Prerequisite
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
+You need to have [NodeJS](https://nodejs.org/en/) installed on our machine.
 
-## Development server
+Consider installing nvm for either [mac or linux](https://github.com/creationix/nvm) or for [Windows](https://github.com/coreybutler/nvm-windows)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Prepare
 
-## Code scaffolding
+Clone or download the [repository](https://github.com/littleendians/intro-angular-typescript) 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+# Install dependencies
 
-## Build
+## Global dependencies
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Install the TypeScript compiler and tools
 
-## Running unit tests
+```bash
+npm i -g typescript
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Install Angular CLI tools
 
-## Running end-to-end tests
+```bash
+npm i -g @angular/cli
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+## Project dependencies
 
-## Further help
+In the cloned directory:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```bash
+npm install
+```
+
+# Serve the application
+
+```bash
+npm start
+````

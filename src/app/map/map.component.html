@@ -1,0 +1,3 @@
+<leaflet [center]="center" [markers]="marker$"></leaflet>
+<app-sidebar [playgrounds]="parentPlaygrounds" [selectedPlayground]="playground" (select)="selectPlayground($event)"></app-sidebar>
+<app-footer [playground]="playground"></app-footer>
